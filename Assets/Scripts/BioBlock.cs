@@ -8,7 +8,7 @@ public class BioBlock : MonoBehaviour
 {
     // you can set these in the Unity Inspector to customize your BioBlock
     public float stepDuration = 2f;
-    public Color firstGenerationColor;
+    public Color firstGenerationColor = Color.white;
     public float darkeningFactor = 0.95f;  // the lower this number, the more the color of BioBlocks will darken with each generation
 
     // external variables BioBlocks can reference
