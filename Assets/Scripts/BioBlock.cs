@@ -50,8 +50,8 @@ public class BioBlock : MonoBehaviour
 
     // non-game-accessible variables specific to this instance of BioBlock - you can't access these directly
     public bool flag { get; set; }
-    public Direction storedDirection = Direction.NONE;
-    public bool traitActive;
+    [HideInInspector] public Direction storedDirection = Direction.NONE;
+    [HideInInspector] public bool traitActive;
 
 
 
